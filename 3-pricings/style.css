@@ -1,1 +1,151 @@
 /* write your css here */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	/* border: 2px solid red; */
+}
+
+html {
+	font-size: 62.5%;
+	font-family: sans-serif;
+}
+
+/* main container */
+.main-container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 5rem;
+}
+
+/* heading container */
+
+.heading-container {
+	width: 50rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+}
+
+.main-subheading {
+	color: #4849e1;
+	font-weight: bolder;
+}
+
+.main-heading {
+	color: #101927;
+	font-weight: bolder;
+}
+
+.main-description {
+	width: 35rem;
+	text-align: center;
+	color: #4a5562;
+}
+
+/* pricing container */
+
+.pricing-card-highlighted {
+	border-left: 0.5px solid #d8d8d8;
+	border-right: 0.5px solid #d8d8d8;
+}
+
+.pricing-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.card-pricing-highlight {
+	display: inline;
+	width: fit-content;
+	font-size: 2rem;
+	font-weight: bolder;
+}
+
+.card-pricing-highlight {
+	display: inline;
+	width: fit-content;
+	font-size: 2rem;
+	font-weight: bolder;
+}
+
+.card-pricing-month {
+	display: inline;
+	width: fit-content;
+	color: #4a5562;
+	font-size: 0.8rem;
+	margin-left: 0.1rem;
+}
+
+/* pricing card */
+
+.pricing-card {
+	display: flex;
+	flex-direction: column;
+	padding: 3rem;
+
+	gap: 2rem;
+	width: 30rem;
+	margin: 0rem 2rem;
+}
+
+.card-title {
+	font-size: 1rem;
+	font-weight: bolder;
+	color: #101927;
+}
+
+.card-features {
+	list-style: none;
+	padding-left: 0;
+}
+
+.card-description {
+	color: #4a5562;
+	font-size: 0.7rem;
+	margin-top: 0.5rem;
+}
+
+li::before {
+	content: "";
+	display: inline-block;
+	height: 0.8rem;
+	width: 0.8rem;
+	margin-right: 0.5rem;
+	background-image: url(./image.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+}
+
+.card-button {
+	background-color: #4849e1;
+	color: white;
+	padding: 0.8rem 1rem;
+	border-radius: 0.5rem;
+	text-align: center;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.card-button:hover {
+	background-color: #373b8a;
+}
+
+/* card feture heading */
+
+.card-features-heading {
+	font-weight: bold;
+	color: #101927;
+}
+
+.card-features li {
+	padding-left: 0;
+	margin-top: 0.8rem;
+}

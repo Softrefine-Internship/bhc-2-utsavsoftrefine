@@ -1,1 +1,84 @@
 /* write your css here */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+/* 7c8cf5 */
+
+html {
+	font-size: 62.5%;
+}
+
+.main-container {
+	display: grid;
+	grid-template-columns: repeat(2, 600px);
+	width: 100%;
+}
+
+.image-container::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	background: linear-gradient(
+		0deg,
+		#5153c0,
+		transparent
+	); 
+	z-index: 1;
+}
+
+img {
+	height: 60rem;
+	width: 60rem;
+	object-fit: cover;
+}
+
+.text-container {
+	height: 60rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+	padding: 10rem;
+	gap: 2rem;
+	background-color: #101927;
+	color: #fff;
+}
+
+.text-subheading {
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #7c8cf5;
+}
+
+.text-heading {
+	font-size: 3rem;
+	font-weight: 900;
+	color: #fff;
+}
+
+.text-description {
+	font-size: 1.45rem;
+	font-weight: 400;
+	color: #4c5461;
+}
+
+.button {
+	display: inline;
+	width: fit-content;
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: #fff;
+	background-color: #28303c;
+	padding: 1rem 2rem;
+	border-radius: 0.5rem;
+	border: none;
+	cursor: pointer;
+}
