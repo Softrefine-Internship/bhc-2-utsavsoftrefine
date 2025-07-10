@@ -56,14 +56,18 @@ body {
 .blog-post-content {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: flex-start;
+}
+
+.blog-post-content-margin {
+	margin-bottom: 2rem;
 }
 
 /*image */
 
 .blog-post-image img {
-	width: 25rem;
-	height: 25rem;
+	width: 22rem;
+	height: 22rem;
 	object-fit: cover;
 	border-radius: 2rem;
 }
@@ -97,12 +101,20 @@ body {
 /* descripition */
 
 .blog-post-description {
+	font-size: 1rem;
 	line-height: 1.5rem;
+	color: #555;
+	width: 70%;
+}
+
+.blog-post-line {
+	width: 70%;
 	color: #555;
 }
 /* author part */
 
 .blog-post-author {
+    height: 3rem;
 	display: flex;
 	align-items: center;
 	gap: 1rem;
@@ -122,4 +134,5 @@ body {
 .author-bio {
 	color: #555;
 	font-size: 1.3rem;
+    margin-top: 0.5rem;
 }

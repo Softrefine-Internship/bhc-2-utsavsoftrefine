@@ -4,7 +4,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	/* border: 1px solid red; */
-	font-family: "Inter", Arial, sans-serif;
+	font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -54,6 +54,7 @@ textarea {
 label {
 	display: block;
 	font-size: 1.4rem;
+
 }
 
 .form-group {
@@ -62,6 +63,7 @@ label {
 	width: 100%;
 	gap: 1rem;
 	margin-bottom: 2.5rem;
+	font-weight: 550;
 }
 
 .form-name {
@@ -94,6 +96,7 @@ label {
 	font-size: 1rem;
 	background-color: transparent;
 	padding-left: 0.8rem;
+	color: #808080;
 }
 
 .phone-input {
@@ -103,7 +106,7 @@ label {
 
 .privacy-policy-text {
 	font-size: 1rem;
-	color: #8f8f8f;
+	color: #808080;
 }
 
 .privacy-policy-link {
@@ -116,6 +119,7 @@ label {
 	width: 100%;
 	background-color: #4849e1;
 	height: 2rem;
+	font-size: 1.3rem;
 	color: #fff;
 	border-radius: 0.5rem;
 	/* text-align: center; */

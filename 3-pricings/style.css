@@ -4,6 +4,7 @@
 	margin: 0;
 	padding: 0;
 	/* border: 2px solid red; */
+		font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -44,6 +45,7 @@ body {
 .main-heading {
 	color: #101927;
 	font-weight: bolder;
+	font-size: 3rem;
 }
 
 .main-description {
@@ -101,7 +103,7 @@ body {
 .card-title {
 	font-size: 1rem;
 	font-weight: bolder;
-	color: #101927;
+	color: #4a5562;
 }
 
 .card-features {
@@ -111,7 +113,7 @@ body {
 
 .card-description {
 	color: #4a5562;
-	font-size: 0.7rem;
+	font-size: 0.9rem;
 	margin-top: 0.5rem;
 }
 
