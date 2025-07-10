@@ -1,1 +1,132 @@
 /* write your css here */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: "Inter", Arial, sans-serif;
+}
+
+body {
+	color: #1a1a1a;
+	background: #fff;
+	font-size: 1.6rem;
+}
+
+.main-container {
+	padding: 3rem 4rem 4rem 4rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2.5rem;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-bottom: 1rem;
+}
+
+.main-heading {
+	font-size: 2rem;
+	font-weight: 700;
+	color: #23272e;
+	margin-bottom: 0.6rem;
+}
+
+.main-subheading {
+	font-size: 1.5rem;
+	font-weight: 400;
+	color: #525866;
+}
+
+.add-user-btn {
+	background: #6366f1;
+	color: #fff;
+	border: none;
+	border-radius: 0.8rem;
+	padding: 1rem 2rem;
+	font-weight: 600;
+	font-size: 1.5rem;
+	cursor: pointer;
+	margin-top: 0.5rem;
+}
+
+.add-user-btn:hover {
+	background: #4f46e5;
+}
+
+/* Table styling */
+.table-container {
+	width: 100%;
+	background: #fff;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	background: #fff;
+}
+
+thead tr {
+	border-bottom: 1px solid #e5e7eb;
+}
+
+th {
+	text-align: left;
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #23272e;
+	padding-bottom: 1.3rem;
+	letter-spacing: 0.02em;
+}
+
+tbody tr {
+	border-bottom: 1px solid #e5e7eb;
+}
+
+tbody tr:last-child {
+	border-bottom: none;
+}
+
+td {
+	font-size: 1.45rem;
+	color: #23272e;
+	padding: 1.5rem 0 1.5rem 0;
+	vertical-align: middle;
+}
+
+.user-name {
+	font-weight: 600;
+	color: #23272e;
+}
+
+.user-email {
+	color: #525866;
+	font-weight: 400;
+}
+
+.user-role {
+	color: #525866;
+	font-weight: 500;
+}
+
+.edit-link {
+	color: #6366f1;
+	font-weight: bold;
+	font-size: 1.4rem;
+	text-decoration: none;
+	padding-left: 1rem;
+	cursor: pointer;
+	transition: color 0.18s;
+}
+
+.edit-link:hover {
+	color: #4f46e5;
+}
