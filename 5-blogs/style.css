@@ -3,7 +3,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: sans-serif;
+	/* font-family: sans-serif; */
 	/* border: 2px solid red; */
 }
 
@@ -11,7 +11,7 @@ html {
 	font-size: 62.5%;
 }
 body {
-	font-family: "Inter", sans-serif;
+	font-family: "Poppins", sans-serif;
 }
 
 /* main*/
@@ -62,6 +62,9 @@ body {
 .blog-post-content-margin {
 	margin-bottom: 2rem;
 }
+.blog-post-content-margin:first-child {
+	margin-bottom: 1.5rem;
+}
 
 /*image */
 
@@ -96,6 +99,7 @@ body {
 .blog-post-title {
 	font-size: 1.5rem;
 	font-weight: bold;
+	padding: 0.5rem 0;
 }
 
 /* descripition */
@@ -114,7 +118,7 @@ body {
 /* author part */
 
 .blog-post-author {
-    height: 3rem;
+	height: 3rem;
 	display: flex;
 	align-items: center;
 	gap: 1rem;
@@ -134,5 +138,5 @@ body {
 .author-bio {
 	color: #555;
 	font-size: 1.3rem;
-    margin-top: 0.5rem;
+	margin-top: 0.5rem;
 }
