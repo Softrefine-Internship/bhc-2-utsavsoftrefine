@@ -98,7 +98,7 @@ body {
 
 .blog-post-title {
 	font-size: 1.5rem;
-	font-weight: bold;
+	font-weight: 550;
 	padding: 0.5rem 0;
 }
 
@@ -106,14 +106,15 @@ body {
 
 .blog-post-description {
 	font-size: 1rem;
-	line-height: 1.5rem;
+	line-height: 2rem;
 	color: #555;
 	width: 70%;
 }
 
 .blog-post-line {
 	width: 70%;
-	color: #555;
+	color: rgba(216,216,216, 0.5);
+	margin-bottom: 3rem;
 }
 /* author part */
 
@@ -131,12 +132,11 @@ body {
 }
 
 .author-name {
-	font-weight: bold;
+	font-weight: 550;
 	font-size: 1.3rem;
 }
 
 .author-bio {
 	color: #555;
 	font-size: 1.3rem;
-	margin-top: 0.5rem;
 }

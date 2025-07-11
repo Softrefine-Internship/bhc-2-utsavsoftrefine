@@ -30,8 +30,8 @@ body {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
-	height: 100%;
+	width: 60rem;
+	height: 60rem;
 	background: radial-gradient(
 		circle at bottom right,
 		rgb(88, 54, 167),
@@ -74,7 +74,7 @@ img {
 .text-description {
 	font-size: 1.45rem;
 	font-weight: 400;
-	color: #4c5461;
+	color: #4d535f;
 }
 
 .button {
@@ -88,4 +88,5 @@ img {
 	border-radius: 0.5rem;
 	border: none;
 	cursor: pointer;
+	text-decoration: none;
 }

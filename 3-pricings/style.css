@@ -4,7 +4,7 @@
 	margin: 0;
 	padding: 0;
 	/* border: 2px solid red; */
-		font-family: "Poppins", sans-serif;
+	font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -38,8 +38,8 @@ body {
 }
 
 .main-subheading {
-	color: #4849e1;
-	font-weight: bolder;
+	color: #4848e0;
+	font-weight: 500;
 }
 
 .main-heading {
@@ -49,16 +49,18 @@ body {
 }
 
 .main-description {
-	width: 40rem;
+	width: 50rem;
 	text-align: center;
 	color: #4a5562;
+	line-height: 1.5rem;
+	font-size: 1.1rem;
 }
 
 /* pricing container */
 
 .pricing-card-highlighted {
-	border-left: 0.5px solid #d8d8d8;
-	border-right: 0.5px solid #d8d8d8;
+	border-left: 0.5px solid rgba(216, 216, 216, 0.4);
+	border-right: 0.5px solid rgba(216, 216, 216, 0.4);
 }
 
 .pricing-container {
@@ -97,13 +99,11 @@ body {
 
 	gap: 2rem;
 	width: 30rem;
-	margin: 0rem 2rem;
 }
-
 .card-title {
 	font-size: 1rem;
-	font-weight: bolder;
-	color: #4a5562;
+	font-weight: 600;
+	color: #000;
 }
 
 .card-features {
@@ -130,7 +130,7 @@ li::before {
 }
 
 .card-button {
-	background-color: #4849e1;
+	background-color: #4848e0;
 	color: white;
 	padding: 0.8rem 1rem;
 	border-radius: 0.5rem;
@@ -146,7 +146,7 @@ li::before {
 /* card feture heading */
 
 .card-features-heading {
-	font-weight: bold;
+	font-weight: 510;
 	color: #101927;
 }
 

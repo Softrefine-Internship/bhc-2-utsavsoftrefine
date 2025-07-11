@@ -98,9 +98,10 @@ html {
 }
 
 .button {
+	
 	display: inline-block;
 	border-radius: 5px;
-	padding: 0.7rem;
+	padding: 1rem;
 	background-color: #4849e1;
 	color: #fff;
 }
@@ -110,12 +111,20 @@ html {
 	align-items: center;
 	gap: 0.25rem; /* Adds spacing between text and image */
 	text-decoration: none;
-	color: inherit;
+	color: inh5erit;
 }
+
+
+.button-primary {
+	width: 13rem;
+}
+
+
+
 
 .rg-arr {
 	display: inline-block;
-	width: 1rem;
+	width: 100;
 	height: 1.5rem;
 	vertical-align: middle; /* Aligns the image nicely with text */
 }

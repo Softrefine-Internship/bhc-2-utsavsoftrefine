@@ -97,7 +97,7 @@ tbody tr:last-child {
 
 td {
 	font-size: 1.45rem;
-	color: #23272e;
+	color: #525866;
 	padding: 1.5rem 0 1.5rem 0;
 	vertical-align: middle;
 }
@@ -114,12 +114,12 @@ td {
 
 .user-role {
 	color: #525866;
-	font-weight: 500;
+	font-weight: 400;
 }
 
 .edit-link {
 	color: #6366f1;
-	font-weight: bold;
+	font-weight: 550;
 	font-size: 1.4rem;
 	text-decoration: none;
 	padding-left: 1rem;

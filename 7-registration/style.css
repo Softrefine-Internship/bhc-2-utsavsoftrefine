@@ -95,7 +95,7 @@ html {
 .checkbox {
 	display: flex;
 	align-items: center;
-	font-size: 1.3rem;
+	/* font-size: 1.3rem */
 	color: #18181b;
 }
 
@@ -213,4 +213,9 @@ html {
 .label {
 	font-size: 1.4rem;
 	font-weight: 700;
+}
+
+.checkmark {
+	margin-left: 1rem;
+	font-weight: 500;
 }
